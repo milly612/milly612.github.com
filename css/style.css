@@ -116,7 +116,7 @@ a:hover:hover {
   font-weight: normal;
   font-size: 1em;
   line-height: 1;
-  margin-top: 10px;
+  margin: 10px 0;
 }
 @media screen and (max-width: 600px) {
   #header h4 {
@@ -275,7 +275,7 @@ article header time {
   line-height: 1;
 }
 article header .title {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-weight: normal;
 }
 article header .title a {
@@ -451,6 +451,11 @@ article .entry video {
   height: auto;
   border: none;
 }
+article .entry a.thumb {
+  margin: 10px 0 0 0;
+  display: inline-block;
+  overflow: hidden;
+}
 article .entry iframe {
   border: none;
 }
@@ -583,7 +588,7 @@ article footer .addthis iframe {
 }
 .home-content .home-post .more {
   display: inline-block;
-  margin: 20px 0 0 0;
+  margin: 10px 0 0 0;
   padding: 10px 30px;
   border: 2px solid #4db7d9;
   -webkit-border-radius: 50px;
@@ -619,7 +624,7 @@ article footer .addthis iframe {
 }
 .home-content .odd {
   float: right;
-  margin: -220px 0 0 0;
+  margin: -450px 0 0 0;
 }
 @media screen and (max-width: 600px) {
   .home-content .odd {
@@ -649,7 +654,7 @@ article footer .addthis iframe {
 .blog-tagline {
   margin: 0 auto 40px;
   display: block;
-  width: 380px;
+  width: 510px;
   height: 1px;
   background: #fff;
 }
